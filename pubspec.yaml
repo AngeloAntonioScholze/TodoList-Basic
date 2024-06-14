@@ -16,7 +16,7 @@ dependencies:
   cloud_firestore: ^5.0.1 #Remote Database
   hive: ^2.2.3 #Local Database
   
-  cupertino_icons: ^1.0.2
+  mockito: ^5.4.4
   
 
 dev_dependencies:
