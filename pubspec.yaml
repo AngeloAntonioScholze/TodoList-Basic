@@ -12,11 +12,12 @@ dependencies:
   flutter:
     sdk: flutter
   go_router: ^14.2.0 #Routing
-  get_it: ^7.7.0 #Dependency injection
+  get_it: ^7.7.0 #Dependency Injection
+  firebase_core: ^3.1.0 #Firebase Dependency
   cloud_firestore: ^5.0.1 #Remote Database
   hive: ^2.2.3 #Local Database
   
-  mockito: ^5.4.4
+  mockito: ^5.4.4 #Testing
   
 
 dev_dependencies:
