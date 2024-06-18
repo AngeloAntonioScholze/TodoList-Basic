@@ -16,6 +16,7 @@ dependencies:
   firebase_core: ^3.1.0 #Firebase Dependency
   cloud_firestore: ^5.0.1 #Remote Database
   hive: ^2.2.3 #Local Database
+  flutter_svg: ^2.0.10+1 #Custom Icons
   
   mockito: ^5.4.4 #Testing
   
@@ -30,6 +31,8 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   uses-material-design: true
+  assets:
+    - assets/icons
 
   # To add assets to your application, add an assets section, like this:
   # assets:
