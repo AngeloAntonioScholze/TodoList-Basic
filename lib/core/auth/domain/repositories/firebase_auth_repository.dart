@@ -2,13 +2,13 @@ import 'package:todo_list_basic/core/auth/domain/repositories/auth_repository.da
 
 class FirebaseAuthRepository implements AuthRepository {
   @override
-  Future<bool> logIn() {
+  Future<bool> login() {
     // TODO: implement logIn
     throw UnimplementedError();
   }
 
   @override
-  Future<bool> logOut() {
+  Future<bool> logout() {
     // TODO: implement logOut
     throw UnimplementedError();
   }

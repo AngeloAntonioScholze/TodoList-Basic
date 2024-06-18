@@ -1,6 +1,6 @@
 abstract class AuthRepository {
-  Future<bool> logIn();
-  Future<bool> logOut();
+  Future<bool> login();
+  Future<bool> logout();
   Future<bool> signIn();
   Future<bool> deleteAccount();
 }
