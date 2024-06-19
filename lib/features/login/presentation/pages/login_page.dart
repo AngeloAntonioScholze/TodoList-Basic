@@ -7,6 +7,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      endDrawer: const Drawer(),
       body: Stack(
         children: [
           Positioned(
@@ -16,6 +17,21 @@ class LoginPage extends StatelessWidget {
               onPressed: () {},
               icon: SvgPicture.asset('assets/icons/drawer_bars.svg'),
             ),
+          ),
+          Column(
+            children: [
+              Container(), //logo
+              TextFormField(), //email field
+              TextFormField(), // password field
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text('Login'),
+              ), //login button
+              TextButton(
+                onPressed: () {},
+                child: const Text('Continuar sem conta'),
+              ), //unsingned login button
+            ],
           ),
         ],
       ),
